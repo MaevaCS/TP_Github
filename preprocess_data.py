@@ -1,6 +1,6 @@
 from sklearn.model_selection import train_test_split
 
-def preprocess_data(data, testSize):
+def a_very_ccol_function(data, testSize):
     """Nettoie, met en forme les données et prépare les ensembles de train et 
     de test"""
     train, test = train_test_split(data, test_size = testSize)
